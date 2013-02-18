@@ -1,2 +1,3 @@
-JS-Meter-Online
+JS Meter Online
 ===============
+http://jsmeter.herokuapp.com/
