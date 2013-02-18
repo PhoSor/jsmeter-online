@@ -9,18 +9,6 @@
   margin-right: auto;
 }
 
-.half {
-  /* width: 470px; */
-}
-
-.left {
-  /* float: left; */
-}
-
-.right {
-  /* float: right; */
-}
-
 .title {
   text-align: center;
 }
@@ -36,7 +24,6 @@
 }
 
 .results {
-  /* overflow: hidden; */
   margin-top: 16px;
 }
 
