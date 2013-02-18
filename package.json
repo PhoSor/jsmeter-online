@@ -1,0 +1,11 @@
+{
+  "name": "js-meter-online",
+  "description": "JS Meter Online",
+  "version": "0.2.0",
+  "dependencies": {
+    "express": "3.x"
+  },
+  "scripts": {
+    "start": "node app"
+  }
+}

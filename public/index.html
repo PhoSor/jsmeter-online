@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>JS Meter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jsmeter/tokens.js"></script>
+    <script src="jsmeter/parse.js"></script>
+    <script src="jsmeter/complexity.js"></script>
+    <script src="jquery-1.9.1.min.js"></script>
+    <script src="meterruner.js"></script>
+  </head>
+  <body>
+    <div class="container center">
+      <h1 class="title">JS Meter</h1>
+      <div class="input center">
+        <form action="GET">
+          <textarea rows="16" class="source" cols="80"></textarea>
+          <br />
+          <input type="button" class="check center" value="check"/>
+        </form>
+      </div> <!-- /input --> 
+      <div class="results center">
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Lines</th>
+              <th>Function</th>
+              <th>Maintainability Index</th>
+              <th>Cyclomatic Complexity</th>
+              <th>Program Level</th>
+              <th>Halstead Volume</th>
+              <th>Halstead Potential</th>
+              <th>Branches</th>
+              <th>Block Depth</th>
+            </tr>
+          </thead>
+          <tbody class="functions-stats">
+          </tbody>
+        </table>
+      </div> <!-- /results --> 
+      <div>
+        <ul class="links center">
+        	<li> <a href="http://code.google.com/p/jsmeter/wiki/CodeMetrics">About Metrics</a> </li>
+          <li> <a href="https://github.com/PhoSor/JS-Meter-Online">GitHub</a> </li>
+          <li> <a href="https://github.com/PhoSor/JS-Meter-Online/issues">Issues</a> </li>
+        </ul>
+      </div>
+    </div> <!-- /container --> 
+  </body>
+</html>
